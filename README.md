@@ -1,66 +1,64 @@
-# Realtime Data Streaming | End-to-End Data Engineering Project
+# Saliya M Raju – Featured Projects
 
-## Table of Contents
-- [Introduction](#introduction)
-- [System Architecture](#system-architecture)
-- [What You'll Learn](#what-youll-learn)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
+## 1. End-to-End Real-Time Data Pipeline
+**Tech:** Python, Kafka, Spark Structured Streaming, Cassandra, Airflow  
+**Description:**  
+Designed and implemented an end-to-end pipeline for real-time data ingestion, processing, and storage. Utilized Kafka for streaming, Spark Structured Streaming for data processing, Cassandra for scalable storage, and Airflow for pipeline orchestration. Ensures seamless, low-latency handling of user data streams for analytics and business intelligence.
 
-## Introduction
+- **Key Highlights:**
+  - Achieved scalable, fault-tolerant data streaming and processing.
+  - Automated complex workflows for real-time analytics.
+  - Integrated industry-standard tools for production-grade pipelines.
 
-This project serves as a comprehensive guide to building an end-to-end data engineering pipeline. It covers each stage from data ingestion to processing and finally to storage, utilizing a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra. Everything is containerized using Docker for ease of deployment and scalability.
+[View on GitHub](https://github.com/saliyamraju/End-to-End-Realtime-Data-Pipeline)
 
-## System Architecture
+---
 
-![System Architecture](https://github.com/airscholar/e2e-data-engineering/blob/main/Data%20engineering%20architecture.png)
+## 2. AWS & Snowflake Integration
+**Tech:** Python, AWS S3, IAM, Snowflake  
+**Description:**  
+Developed a secure and efficient integration layer between AWS and Snowflake cloud data platform. Automated data transfer, transformation, and loading between S3 and Snowflake using robust IAM policies and roles.
 
-The project is designed with the following components:
+- **Key Highlights:**
+  - Automated ETL workflows from AWS to Snowflake.
+  - Implemented granular security and access controls.
+  - Enabled advanced analytics leveraging both AWS and Snowflake.
 
-- **Data Source**: We use `randomuser.me` API to generate random user data for our pipeline.
-- **Apache Airflow**: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
-- **Apache Kafka and Zookeeper**: Used for streaming data from PostgreSQL to the processing engine.
-- **Control Center and Schema Registry**: Helps in monitoring and schema management of our Kafka streams.
-- **Apache Spark**: For data processing with its master and worker nodes.
-- **Cassandra**: Where the processed data will be stored.
+[View on GitHub](https://github.com/saliyamraju/AWS-Snowflake--Integartion)
 
-## What You'll Learn
+---
 
-- Setting up a data pipeline with Apache Airflow
-- Real-time data streaming with Apache Kafka
-- Distributed synchronization with Apache Zookeeper
-- Data processing techniques with Apache Spark
-- Data storage solutions with Cassandra and PostgreSQL
-- Containerizing your entire data engineering setup with Docker
+## 3. Movie Recommender System
+**Tech:** Python, Jupyter Notebook, Machine Learning  
+**Description:**  
+Built a recommendation engine using collaborative filtering and content-based methods to deliver personalized movie recommendations.
 
-## Technologies
+- **Key Highlights:**
+  - End-to-end implementation: Data preprocessing, model building, evaluation.
+  - Demonstrates applied machine learning and data science skills.
+  - Interactive, notebook-driven solution for quick experimentation.
 
-- Apache Airflow
-- Python
-- Apache Kafka
-- Apache Zookeeper
-- Apache Spark
-- Cassandra
-- PostgreSQL
-- Docker
+[View on GitHub](https://github.com/saliyamraju/Movie-Recommender)
 
-## Getting Started
+---
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/saliyamraju/End-to-End-Realtime-Data-Pipeline.git
-    ```
+## 4. Anythink Market (Collaborative Project)
+**Tech:** Full Stack (refer to repo)  
+**Description:**  
+Contributed to a marketplace platform, collaborating on design and development of core features.
 
-2. Navigate to the project directory:
-    ```bash
-    cd End-to-End-Realtime-Data-Pipeline
-    ```
+[View on GitHub](https://github.com/Wilcolab/Anythink-Market-lrwoyn5j)
 
-3. Run Docker Compose to spin up the services:
-    ```bash
-    docker-compose up
-    ```
+---
 
+## 5. Wowlab Internship Projects
+**Tech:** Python  
+**Description:**  
+Showcases solutions and deliverables from internship at Wowlab, focusing on practical data engineering and analytics.
 
+[View on GitHub](https://github.com/saliyamraju/Wowlab-Intern)
 
+---
 
+> 📫 **Let’s connect!**  
+> I’m passionate about building scalable data systems, cloud integrations, and agentic AI. Open to new opportunities and collaborations.
