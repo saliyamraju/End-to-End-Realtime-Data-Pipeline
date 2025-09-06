@@ -1,4 +1,4 @@
-# Saliya M Raju – Featured Projects
+# Saliyam Chekka - Featured Projects
 
 ## 1. End-to-End Real-Time Data Pipeline
 **Tech:** Python, Kafka, Spark Structured Streaming, Cassandra, Airflow  
